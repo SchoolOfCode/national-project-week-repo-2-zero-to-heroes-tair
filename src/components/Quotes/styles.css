@@ -1,12 +1,9 @@
 #quotes1 img {
-  width: 80%;
+  width: 90%;
   height: auto;
   object-fit: contain;
   align-content: center;
-  /* position: absolute; */
-  /* left: 1200px;
-  bottom: 55px; */
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: block;
 }
 
@@ -14,17 +11,18 @@
   /* position: absolute; */
 
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
   display: flex;
   font-size: 30px;
   color: black;
   background: white;
   border-radius: 20px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .quotescontainer{
-  width: 20%;
-  top: 12%;
-  margin-left: 80px;
+  width: 19%;
+  top: 10.5%;
+  margin-left: 79px;
   position: absolute;
 }
