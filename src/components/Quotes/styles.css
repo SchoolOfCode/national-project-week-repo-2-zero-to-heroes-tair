@@ -1,21 +1,23 @@
-#quotes1 img{
-    width: 900px;
-    height: 1000px;
-    object-fit: contain;
-    align-content: center;
-    position: absolute;
-    left: 1200px;
-    bottom: 55px;
+#quotes1 img {
+  width: 900px;
+  height: 1000px;
+  object-fit: contain;
+  align-content: center;
+  /* position: absolute; */
+  left: 1200px;
+  bottom: 55px;
+  border: 2px solid red;
 }
 
 #quotesText {
-    position: absolute;
-    left: 1500px;
-    top: 50px;
-    font-family: 'Athelas', 'Arial Narrow Bold';
-    display: flex;
-    font-size: 30px;
-    color:black;
-    background: white;
-    border-radius: 20px;
+  /* position: absolute; */
+  left: 1500px;
+  top: 50px;
+  font-family: "Athelas", "Arial Narrow Bold";
+  display: flex;
+  font-size: 30px;
+  color: black;
+  background: white;
+  border-radius: 20px;
+  border: 2px solid red;
 }

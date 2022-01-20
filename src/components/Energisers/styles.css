@@ -1,25 +1,25 @@
 /* The below is for just image */
 
-#energiser1 img{
-    width: 900px;
-    height: 700px;
-    object-fit: contain;
-    position: absolute; 
-    left: 470px;    
-    bottom: -80px;
+#energiser1 img {
+  width: 900px;
+  height: 700px;
+  object-fit: contain;
+  /* position: absolute;  */
+  left: 470px;
+  bottom: -80px;
 }
 
-#energiserText{
-    position: absolute;
-    left: 650px;
-    top: 700px;
-    font-family: 'Athelas', 'Arial Narrow Bold';
-    display: flex;
-    font-size: 30px;
-    background:#79a863;
-    color: white;
-    border-radius: 20px;
-
+#energiserText {
+  /* position: absolute; */
+  left: 650px;
+  top: 700px;
+  font-family: "Athelas", "Arial Narrow Bold";
+  display: flex;
+  font-size: 30px;
+  background: #79a863;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid red;
 }
 /* #energiser1{
     width: 700px;
@@ -29,3 +29,15 @@
     left: 300px;    
     bottom: -50px;
 } */
+.energiserimage {
+  padding-left: 10px;
+  border: 2px solid red;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,20 +1,22 @@
-#reminder1 img{
-    width: 750px;
-    height: 750px;
-    object-fit: contain;
-    position: absolute;
-    bottom: 200px;
-    left: -125px;
+#reminder1 img {
+  width: 750px;
+  height: 750px;
+  object-fit: contain;
+  /* position: absolute; */
+  bottom: 200px;
+  left: -125px;
+  border: 2px solid red;
 }
 
-#reminderText{
-    position: absolute;
-    top: 470px;
-    left: 170px;
-    font-family: 'Athelas', 'Arial Narrow Bold';
-    font-size: 30px;
-    display: flex;
-    color: white;
-    background: #97096F;
-    border-radius: 20px;
+#reminderText {
+  /* position: absolute; */
+  top: 470px;
+  left: 170px;
+  font-family: "Athelas", "Arial Narrow Bold";
+  font-size: 30px;
+  display: flex;
+  color: white;
+  background: #97096f;
+  border-radius: 20px;
+  border: 2px solid red;
 }
