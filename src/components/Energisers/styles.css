@@ -1,12 +1,11 @@
 /* The below is for just image */
 
 #energiser1 img {
-  width: 900px;
-  height: 700px;
+  width: 100%;
+  height: auto;
   object-fit: contain;
   /* position: absolute;  */
-  left: 470px;
-  bottom: -80px;
+  display: block;
 }
 
 #energiserText {
