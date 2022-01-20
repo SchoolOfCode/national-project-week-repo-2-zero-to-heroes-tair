@@ -62,7 +62,7 @@
 
 #button1 img {
   height: auto;
-  width: 100%;
+  width: 150px;
   margin: 0px;
   padding: 0px;
   position: relative;
@@ -70,7 +70,7 @@
   border-radius: 100px;
   /* border: 5px solid red; */
   display: block;
-  bottom: 500px;
+  cursor: pointer;
 }
 
 .topcontainer {
