@@ -9,7 +9,7 @@ export default function Reminders({ id }) {
   const [reminder, setReminder] = useState("");
 
   async function fetchReminder() {
-    const response = await fetch(`${API_URL}/reminders/${id}`);
+    const response = await fetch(`${API_URL}reminders/${id}`);
     const data = await response.json();
     console.log(data.payload[0]);
     setReminder({

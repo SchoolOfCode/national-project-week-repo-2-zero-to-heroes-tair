@@ -9,7 +9,7 @@ function Quotes({ id }) {
   const [quote, setQuote] = useState("");
 
   async function fetchQuote() {
-    const response = await fetch(`${API_URL}/quotes/${id}`);
+    const response = await fetch(`${API_URL}quotes/${id}`);
     const data = await response.json();
     // console.log(data.payload[0]);
     setQuote({

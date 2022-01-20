@@ -9,7 +9,7 @@ function Energisers({ id }) {
   const [energiser, setEnergiser] = useState("");
 
   async function fetchEnergiser() {
-    const response = await fetch(`${API_URL}/energisers/${id}`);
+    const response = await fetch(`${API_URL}energisers/${id}`);
     const data = await response.json();
     // console.log(data.payload[0]);
     setEnergiser({
