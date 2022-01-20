@@ -7,7 +7,6 @@ position: relative;
   width: 100%;
   height: auto;
   object-fit: contain;
-  /* position: absolute;  */
   display: block;
 }
 
@@ -21,13 +20,13 @@ position: relative;
   background: #79a863;
   color: white;
   border-radius: 20px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   
 }
 
 .energiserimage {
   padding-left: 10px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .flexcontainer {
@@ -37,7 +36,7 @@ position: relative;
   justify-content: center;
   align-items: center; */
   width: 60%;
-  top: 50%;
-  margin-left: 10%;
+  top: 30%;
+  margin-left: 61px;
   position: absolute;
 }
