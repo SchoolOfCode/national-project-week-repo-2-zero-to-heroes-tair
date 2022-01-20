@@ -1,15 +1,15 @@
 import "./styles.css";
 import React from "react";
 import { useState, useEffect } from "react";
-import motivationImage from "./Motivation.png"
+import motivationImage from "./Motivation.png";
 
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3001";
 
 function Quotes({ id }) {
   const [quote, setQuote] = useState("");
-  const URL = "http://localhost:3001/quotes";
 
   async function fetchQuote() {
-    const response = await fetch(`${URL}/${id}`);
+    const response = await fetch(`${API_URL}/quotes/${id}`);
     const data = await response.json();
     // console.log(data.payload[0]);
     setQuote({
@@ -21,8 +21,13 @@ function Quotes({ id }) {
   useEffect(() => {
     fetchQuote();
   }, [id]);
-  
-return <div id="quotes1"><img src={motivationImage} alt="title"/><p id="quotesText">{quote.quote}</p></div>;
+
+  return (
+    <div id="quotes1">
+      <img src={motivationImage} alt="title" />
+      <p id="quotesText">{quote.quote}</p>
+    </div>
+  );
   // return <div>{quote.quote}</div>;
 }
 
