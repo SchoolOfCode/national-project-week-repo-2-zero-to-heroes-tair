@@ -1,5 +1,5 @@
 #reminder1 img {
-  width: 80%;
+  width: 84%;
   height: auto;
   object-fit: contain;
   /* position: absolute; */
@@ -19,8 +19,8 @@
 }
 
 .reminderscontainer{
-  width: 11%;
-  top: 60%;
-  margin-left: 190px;
+  width: 9.5%;
+  top: 61%;
+  margin-left: 220px;
   position: absolute;
 }
