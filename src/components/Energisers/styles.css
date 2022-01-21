@@ -34,6 +34,5 @@ position: relative;
   width: 50%;
   top: 15%;
   margin-left: 65px;
-  /* position: absolute; */
-  position: fixed;
+  position: absolute;
 }
