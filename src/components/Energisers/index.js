@@ -24,19 +24,7 @@ function Energisers({ id }) {
     fetchEnergiser();
   }, [id]);
 
-  // return <div>{text}</div>;
-  // return (
-  //   <div id="energiser1">
-  //     <img src={energiserImage} alt="title" />
-  //     <p id="energiserText">
-  //       Your energiser for today is {energiser.energiser}
-  //       <a href={energiser.url} target="_blank" rel="noreferrer">
-  //         {" "}
-  //         Take me there!
-  //       </a>
-  //     </p>
-  //   </div>
-  // );
+
   return (
     <div id="energiser1">
       <img src={energiserImage} alt="title" />

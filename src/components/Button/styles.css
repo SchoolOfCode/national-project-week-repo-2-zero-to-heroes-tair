@@ -1,5 +1,5 @@
-#button1{
-/* border: 5px solid gold; */
+/* #button1{
+border: 5px solid gold;
 height: auto;
 width: 500px;
 position: absolute;
@@ -24,6 +24,6 @@ background: transparent;
     position: relative;
     content: auto;
     border-radius: 100px;
-    /* border: 5px solid red; */
+    border: 5px solid red;
     display: block;
-}
+} */

@@ -24,7 +24,12 @@ export default function Reminders({ id }) {
   return (
     <div id="reminder1">
       <img src={reminderImage} alt="title" />
-      <p id="reminderText">{reminder.reminder}</p>
+      <div class="reminderscontainer">
+      <p id="reminderText">
+      {reminder.reminder}
+      </p>
+      </div>
+      
     </div>
   );
   // return <div>Remember! {reminder.reminder}</div>;

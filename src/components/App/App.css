@@ -40,9 +40,9 @@
 }
 
 #button1 {
-  border: 5px solid gold;
+  /* border: 5px solid gold; */
   height: auto;
-  width: 500px;
+  width: 100%;
   /* position: absolute; */
   left: 670px;
   top: 300px;
@@ -62,14 +62,15 @@
 
 #button1 img {
   height: auto;
-  width: 100%;
+  width: 270px;
   margin: 0px;
   padding: 0px;
   position: relative;
   content: auto;
   border-radius: 100px;
-  border: 5px solid red;
+  /* border: 5px solid red; */
   display: block;
+  cursor: pointer;
 }
 
 .topcontainer {
