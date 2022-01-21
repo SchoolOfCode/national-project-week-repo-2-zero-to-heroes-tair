@@ -11,7 +11,7 @@ function App() {
   const [id, setId] = useState();
 
   function handleClick() {
-    const number = Math.ceil(Math.random() * 3);
+    const number = Math.ceil(Math.random() * 10);
     if (number !== id) {
       setId(number);
     }
