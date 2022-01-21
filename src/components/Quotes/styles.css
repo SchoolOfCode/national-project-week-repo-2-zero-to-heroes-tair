@@ -19,12 +19,12 @@
   color: black;
   background: white;
   border-radius: 20px;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 .quotescontainer{
   width: 18%;
   top: 11%;
   margin-left: 95px;
-  position: absolute;
+  position: fixed;
 }
