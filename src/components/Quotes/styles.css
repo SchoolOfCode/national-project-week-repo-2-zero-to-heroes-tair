@@ -10,7 +10,8 @@
 #quotesText {
   /* position: absolute; */
 
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bolder;
   display: flex;
   font-size: 30px;
@@ -18,11 +19,11 @@
   color: black;
   background: white;
   border-radius: 20px;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 .quotescontainer{
-  width: 19%;
+  width: 18%;
   top: 11%;
   margin-left: 95px;
   position: absolute;
