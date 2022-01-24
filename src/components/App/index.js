@@ -8,7 +8,7 @@ import Reminders from "../Reminders";
 import Title from "../Title";
 
 function App() {
-  const [id, setId] = useState();
+  const [id, setId] = useState(1);
 
   function handleClick() {
     const number = Math.ceil(Math.random() * 10);
