@@ -4,6 +4,7 @@ import buttonImage from "./Button.png";
 import Energisers from "../Energisers";
 import Quotes from "../Quotes";
 import Reminders from "../Reminders";
+import Button from "../Button";
 
 import Title from "../Title";
 
@@ -40,9 +41,10 @@ function App() {
           <Title> </Title>
           <div id="button1">
             {" "}
-            <button onClick={handleClick}>
+            {/* <button onClick={handleClick}>
               <img src={buttonImage} alt="title" />
-            </button>
+            </button> */}
+            <Button handleClick={handleClick} buttonImage={buttonImage} text="Zen"/>
           </div>
           <Energisers text="Energise!" id={id}></Energisers>
         </div>
