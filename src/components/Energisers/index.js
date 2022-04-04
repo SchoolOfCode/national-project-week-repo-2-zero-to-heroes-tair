@@ -10,7 +10,7 @@ function Energisers({ id }) {
 
   async function fetchEnergiser() {
     const response = await fetch(`${API_URL}energisers/${id}`,{mode:'cors',
-    headers:{Accept:'*'}
+    headers:{'Access-Control-Allow-Origin':'*'}
   });
     const data = await response.json();
     // console.log(data.payload[0]);
