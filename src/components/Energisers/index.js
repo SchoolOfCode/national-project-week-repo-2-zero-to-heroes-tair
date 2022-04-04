@@ -9,10 +9,7 @@ function Energisers({ id }) {
   const [energiser, setEnergiser] = useState("");
 
   async function fetchEnergiser() {
-    const response = await fetch(`${API_URL}energisers/${id}`,{mode:'cors',
-    headers:{'Access-Control-Allow-Origin':[//"https://zen-ergise.netlify.app/",
-    "https://zen-ergise.herokuapp.com/"]}
-  });
+    const response = await fetch(`${API_URL}energisers/${id}`,(req,res,next)=>{res.set('Access-Control-Allow-Origin','*')});
     const data = await response.json();
     // console.log(data.payload[0]);
     setEnergiser({
