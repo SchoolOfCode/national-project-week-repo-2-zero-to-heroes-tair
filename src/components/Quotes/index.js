@@ -11,7 +11,7 @@ function Quotes({ id }) {
   async function fetchQuote() {
     const response = await fetch(`${API_URL}quotes/${id}`);
     const data = await response.json();
-    // console.log(data.payload[0]);
+     console.log(data.payload[0]);
     setQuote({
       quote: data.payload[0].quotation,
     });

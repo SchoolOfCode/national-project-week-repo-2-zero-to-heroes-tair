@@ -9,21 +9,20 @@ function Energisers({ id }) {
   const [energiser, setEnergiser] = useState("");
 
   async function fetchEnergiser() {
-    const response = await fetch(`${API_URL}energisers/${id}`,(req,res,next)=>{res.set('Access-Control-Allow-Origin','*')});
+    const response = await fetch(`${API_URL}energisers/${id}`);
     const data = await response.json();
-    // console.log(data.payload[0]);
+    console.log(data.payload[0]);
     setEnergiser({
       energiser: data.payload[0].activity,
       category: data.payload[0].category,
       url: data.payload[0].url,
     });
-    // console.log(energiser.energiser);
+    console.log(energiser.energiser);
   }
 
   useEffect(() => {
     fetchEnergiser();
   }, [id]);
-
 
   return (
     <div id="energiser1">
