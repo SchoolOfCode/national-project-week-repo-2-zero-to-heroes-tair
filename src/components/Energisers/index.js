@@ -10,7 +10,7 @@ function Energisers({ id }) {
 
   async function fetchEnergiser() {
     const response = await fetch(`${API_URL}energisers/${id}`,{mode:'cors',
-    headers:{'Access-Control-Allow-Origin':["https://zen-ergise.netlify.app/",
+    headers:{'Access-Control-Allow-Origin':[//"https://zen-ergise.netlify.app/",
     "https://zen-ergise.herokuapp.com/"]}
   });
     const data = await response.json();
