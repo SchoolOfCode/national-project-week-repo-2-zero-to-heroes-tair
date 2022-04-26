@@ -3,13 +3,16 @@ import React from "react";
 import energiserImage from "./Energiser.png";
 import { useState, useEffect } from "react";
 
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3001/";
 
+
+
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3001/";
+console.log(API_URL)
 function Energisers({ id }) {
   const [energiser, setEnergiser] = useState("");
 
   async function fetchEnergiser() {
-    const response = await fetch(`${API_URL}energisers/${id}`);
+    const response = await fetch(`${API_URL}energisers/${id}/allow-cors`, {mode:'cors'});
     const data = await response.json();
     console.log(data.payload[0]);
     setEnergiser({
