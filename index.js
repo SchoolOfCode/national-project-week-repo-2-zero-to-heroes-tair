@@ -1,12 +1,12 @@
 import "./App.css";
 import React, { useState } from "react";
 import buttonImage from "./Button.png";
-import Energisers from "../Energisers";
-import Quotes from "../Quotes";
-import Reminders from "../Reminders";
-import Button from "../Button";
+import Energisers from "./src/components/Energisers";
+import Quotes from "./src/components/Quotes";
+import Reminders from "./src/components/Reminders";
+import Button from "./src/components/Button";
 
-import Title from "../Title";
+import Title from "./src/components/Title";
 
 function App() {
   const [id, setId] = useState(1);
