@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 
 
 
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3001/";
+const API_URL = "https://energy12.herokuapp.com/"|| "http://localhost:3001/";
 console.log(API_URL)
 function Energisers({ id }) {
   const [energiser, setEnergiser] = useState("");
